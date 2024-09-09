@@ -50,10 +50,15 @@
 # # Review
 # create variables for the following :
 # 1. age
+age =int(input("How old are you?: "))
 # 2. name
+name = input("what is your name?: ")
 # 3. song
+song= input("What is your favorite song?:")
 # 4. food
+food = input("Waht is your favorite food?: ")
 # 5. number
+number = int(input("what is your favorite number?: "))
 
 
 # #now include the variables you just made print in the following...
@@ -69,9 +74,9 @@
 ##########################################################################################
 
 
-
-
-
+print(f"Once upon a time, there was a {age} old coder named {name} ")
+print(f"{name} liked to hum the song {song} while coding. It was so annoying that their teammates would throw {food} "until" ,name, "would stop singing. ")
+print ("Still," ,name, "was the best coder on the team and could write" ,number, "lines of code every day. Maybe" ,song, "was" ,name,"'s secret power?" )
 
 
 
