@@ -172,41 +172,40 @@
 
 ##########################################################################################
 # #addition
-print(2+2)
-# #multiplication
-print(2*2)
-# #division
-print(2/2)
-# #modulo
-print(2%2)
-# #powers
-print(2**2)
-# #get the max and min of a number
-print(max(2,3))
-print(min(2,3))
-# #round a number
-print(round(2.5))
-# # absolute value
-print(abs(-2))
-# # order of operations
-print(2 + 10 * 10 + 3)
-# #to do more you need to import special math libraries from python
+# print(2+2)
+# # #multiplication
+# print(2*2)
+# # #division
+# print(2/2)
+# # #modulo
+# print(2%2)
+# # #powers
+# print(2**2)
+# # #get the max and min of a number
+# print(max(2,3))
+# print(min(2,3))
+# # #round a number
+# print(round(2.5))
+# # # absolute value
+# print(abs(-2))
+# # # order of operations
+# print(2 + 10 * 10 + 3)
+# # #to do more you need to import special math libraries from python
 
-from math import *    
+# from math import *    
 
-# #this goes out and grabs some different math functions we can use
+# # #this goes out and grabs some different math functions we can use
 
-# #floor method (ROUND DOWN)
-print(floor(3.7))
-print(floor(3.3))
-print(floor(3.9))
-# #ceil method (ROUND UP)
-print(ceil(3.7))
-print(ceil(3.3))
-# #sqrt method
-print(sqrt(36))
+# # #floor method (ROUND DOWN)
+# print(floor(3.7))
+# print(floor(3.3))
+# print(floor(3.9))
+# # #ceil method (ROUND UP)
+# print(ceil(3.7))
+# print(ceil(3.3))
+# # #sqrt method
+# print(sqrt(36))
 
-c
 
 
 
@@ -221,16 +220,35 @@ c
 ##########################################################################################
 # So what have we learned? We learned some of the basics of numbers in Python. We also learned how to do arithmetic and use Python as a basic calculator. We then wrapped it up with learning about Variable Assignment in Python.
 # # **Getting Input from users**
+
 # #how do we get input from users?
+name = (input("What is your name?: "))
 # input("what is your name?")
+
 # # basic math calculator
+
 # #ask the user for 2 numbers
+numberone= int(input("list a number: "))
+numbertwo= int(input("List another number: "))
 # # print out a statement where you:
+print(f"I will now calculate your two numbers {name}")
 # # add them together
+print("Adding both numbers would equal")
+print((numberone + numbertwo))
 # #multiply
+print("Multiplying both numbers would eqaul")
+print(numberone*numbertwo)
 # # find the max number
+print("The maximum of the numbers are" )
+print(max(numberone,numbertwo))
+print("The minimum of both numbers are" )
+print(min(numberone,numbertwo))
 # # find the remainder of the numbers
+print("Dividing both numbers would equal")
+result= numberone/numbertwo
+print(result)
 # #round one number
+
 
 
 
