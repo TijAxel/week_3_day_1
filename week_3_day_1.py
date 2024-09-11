@@ -178,25 +178,35 @@ print(2*2)
 # #division
 print(2/2)
 # #modulo
-
+print(2%2)
 # #powers
-
+print(2**2)
 # #get the max and min of a number
-
+print(max(2,3))
+print(min(2,3))
 # #round a number
-
+print(round(2.5))
 # # absolute value
-
+print(abs(-2))
 # # order of operations
+print(2 + 10 * 10 + 3)
 # #to do more you need to import special math libraries from python
-# #from math import *    
+
+from math import *    
+
 # #this goes out and grabs some different math functions we can use
-# #floor method
-# #ceil method
+
+# #floor method (ROUND DOWN)
+print(floor(3.7))
+print(floor(3.3))
+print(floor(3.9))
+# #ceil method (ROUND UP)
+print(ceil(3.7))
+print(ceil(3.3))
 # #sqrt method
+print(sqrt(36))
 
-
-
+c
 
 
 
