@@ -13,8 +13,6 @@ name=(input("what is your name?: "))
 
 
 
-# song=(input("favorite song?!"))
-
 sales=int((input("how much have you sold this month: ")))
 
 money=int(sales * .13)
